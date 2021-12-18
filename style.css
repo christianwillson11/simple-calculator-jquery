@@ -1,0 +1,32 @@
+.row {
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+.r-container {
+	height: 80px;
+}
+
+#result {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+
+.row .calc-btn {
+	border: 1px solid black;
+	height: 70px;
+	cursor: pointer;
+}
+
+.row .calc-btn p {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+	.row {
+		margin: 0!important;	
+	}
+}
